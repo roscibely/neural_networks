@@ -1,4 +1,15 @@
+<div>
+
+  <img src="https://github.com/roscibely/algorithms-and-data-structure/blob/main/Ufersa.png" width="70" height="100">
+</div>
+
+
 #  Artificial Neural Network (ANN)
+
+###### Professora: [Rosana Rego](https://github.com/roscibely)
+
+### PEX0023 - REDES NEURAIS ARTIFICIAIS
+#### Bacharelado em Engenharia de Computação - UFERSA
 
 
 
@@ -41,5 +52,8 @@
 
 
 
-
+<div>
+  <img src="https://github.com/roscibely/algorithms-and-data-structure/blob/develop/ufersa.jpg" width="700" height="250">
+</div>
+<i>UFERSA - Campus Pau dos Ferros</i>
 
