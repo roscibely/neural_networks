@@ -13,7 +13,6 @@
 * [MXNet](https://mxnet.apache.org/)
 * [Chainer](https://chainer.org/)
 * [Torch](http://torch.ch/)
-* [Deeplearning4j](https://deeplearning4j.org/)
 * [PaddlePaddle](http://www.paddlepaddle.org/)
 * [Apache SINGA](http://singa.apache.org/)
 * [Apache SystemML](https://systemml.apache.org/)
@@ -36,6 +35,9 @@
 * [Deep Learning with TensorFlow](https://www.amazon.com/Deep-Learning-TensorFlow-Scalable-Implementations/dp/1491989386) - Tom Hope, Bharath Ramsundar, Brian McMahan, Arvind Ramanathan, Quoc V. Le
 * [Deep Learning with CNTK](https://www.amazon.com/Deep-Learning-CNTK-Scalable-Implementations/dp/1491989386) - Tom Hope, Bharath Ramsundar, Brian McMahan, Arvind Ramanathan, Quoc V. Le
 * [Deep Learning with Apache MXNet](https://www.amazon.com/Deep-Learning-Apache-MXNet-Scalable/dp/1491989386) - Thomas Viehmann, Thomas Viehmann, Thomas Viehmann, Thomas Viehmann, Thomas Viehmann
+
+
+[Curso no Dataquest](https://www.dataquest.io/course/deep-learning-fundamentals/)
 
 
 
