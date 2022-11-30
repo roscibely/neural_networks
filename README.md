@@ -11,7 +11,24 @@
 ### PEX0023 - REDES NEURAIS ARTIFICIAIS
 #### Bacharelado em Engenharia de Computação - UFERSA
 
+## Parte 01: Introdução a Redes Neurais 
+1. Rede Perceptron
+2. Adaline
+3. Algoritmo Backpropagation
+4. Algoritmo  LMS
+5. Redes Feedforward MLP e RBF
 
+## Parte 02: _Deep Learning_ 
+1. _Deep Feedforward Networks_
+- 1.1 Regularização (L1, L2)
+- 1.2 Otimização
+2. _Recurrent neural network_ (RNN)
+
+## Parte 03
+1. _Long short-term memory_ (LSTM)
+2. _Gated Recurrent Unit_ (GRU)
+3. _Convolutional neural network_ (CNN)
+4. Projeto Final
 
 ### Frameworks 
 
