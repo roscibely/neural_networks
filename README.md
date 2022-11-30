@@ -10,27 +10,29 @@
 
 ### PEX0023 - REDES NEURAIS ARTIFICIAIS
 #### Bacharelado em Engenharia de Computação - UFERSA
-
+---
 ## Parte 01: Introdução a Redes Neurais 
 1. Rede Perceptron
 2. Adaline
 3. Algoritmo Backpropagation
 4. Algoritmo  LMS
 5. Redes Feedforward MLP e RBF
-
+---
 ## Parte 02: _Deep Learning_ 
 1. _Deep Feedforward Networks_
 - 1.1 Regularização (L1, L2)
 - 1.2 Otimização
 2. _Recurrent neural network_ (RNN)
-
+---
 ## Parte 03
 1. _Long short-term memory_ (LSTM)
 2. _Gated Recurrent Unit_ (GRU)
 3. _Convolutional neural network_ (CNN)
 4. Projeto Final
-
-### Frameworks 
+---
+🤜 Dataquest Academic Program [Link](https://www.dataquest.io/course/deep-learning-fundamentals/)
+---
+### 🦾 Frameworks 
 
 * [TensorFlow](https://www.tensorflow.org/)
 * [Keras](https://keras.io/)
@@ -44,28 +46,28 @@
 * [PaddlePaddle](http://www.paddlepaddle.org/)
 * [Apache SINGA](http://singa.apache.org/)
 * [Apache SystemML](https://systemml.apache.org/)
-
-### Sites legais
-
+---
+### ⚙️ Sites legais 
+---
 * [Neural Network Zoo](http://www.asimovinstitute.org/neural-network-zoo/)
 * [Neural Network Playground](https://playground.tensorflow.org/)
 * [Neural Network Visualizer](http://alexlenail.me/NN-SVG/index.html)
 * [Neural Network Design](http://www.heatonresearch.com/aifh/vol1/v1_3_1_neural_network_design.html)
+---
+### Livros 
 
-### Livros
-
-* [Deep Learning](http://www.deeplearningbook.org/) - Ian Goodfellow, Yoshua Bengio, Aaron Courville
-* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) - Michael Nielsen
-* [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python) - François Chollet
-* [Deep Learning for Coders with fastai and PyTorch](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527) - Jeremy Howard, Sylvain Gugger
-* [Deep Learning with Keras](https://www.amazon.com/Deep-Learning-Keras-Powerful-Python/dp/178646294X) - Antonio Gulli, Sujit Pal
-* [Deep Learning with PyTorch](https://www.amazon.com/Deep-Learning-PyTorch-Applications-Production/dp/1491989386) - Eli Stevens, Luca Antiga, Thomas Viehmann
-* [Deep Learning with TensorFlow](https://www.amazon.com/Deep-Learning-TensorFlow-Scalable-Implementations/dp/1491989386) - Tom Hope, Bharath Ramsundar, Brian McMahan, Arvind Ramanathan, Quoc V. Le
-* [Deep Learning with CNTK](https://www.amazon.com/Deep-Learning-CNTK-Scalable-Implementations/dp/1491989386) - Tom Hope, Bharath Ramsundar, Brian McMahan, Arvind Ramanathan, Quoc V. Le
-* [Deep Learning with Apache MXNet](https://www.amazon.com/Deep-Learning-Apache-MXNet-Scalable/dp/1491989386) - Thomas Viehmann, Thomas Viehmann, Thomas Viehmann, Thomas Viehmann, Thomas Viehmann
+* 📚  [Deep Learning](http://www.deeplearningbook.org/) - Ian Goodfellow, Yoshua Bengio, Aaron Courville
+* 📚  [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) - Michael Nielsen
+* 📚  [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python) - François Chollet
+* 📚  [Deep Learning for Coders with fastai and PyTorch](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527) - Jeremy Howard, Sylvain Gugger
+* 📚  [Deep Learning with Keras](https://www.amazon.com/Deep-Learning-Keras-Powerful-Python/dp/178646294X) - Antonio Gulli, Sujit Pal
+* 📚  [Deep Learning with PyTorch](https://www.amazon.com/Deep-Learning-PyTorch-Applications-Production/dp/1491989386) - Eli Stevens, Luca Antiga, Thomas Viehmann
+* 📚  [Deep Learning with TensorFlow](https://www.amazon.com/Deep-Learning-TensorFlow-Scalable-Implementations/dp/1491989386) - Tom Hope, Bharath Ramsundar, Brian McMahan, Arvind Ramanathan, Quoc V. Le
+* 📚  [Deep Learning with CNTK](https://www.amazon.com/Deep-Learning-CNTK-Scalable-Implementations/dp/1491989386) - Tom Hope, Bharath Ramsundar, Brian McMahan, Arvind Ramanathan, Quoc V. Le
+* 📚  [Deep Learning with Apache MXNet](https://www.amazon.com/Deep-Learning-Apache-MXNet-Scalable/dp/1491989386) - Thomas Viehmann, Thomas Viehmann, Thomas Viehmann, Thomas Viehmann, Thomas Viehmann
 
 
-[Curso no Dataquest](https://www.dataquest.io/course/deep-learning-fundamentals/)
+
 
 
 
