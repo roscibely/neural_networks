@@ -113,3 +113,4 @@ em que
 
 
 [Implementação em Python](https://github.com/roscibely/neural_networks/tree/main/unidadeI/perceptron/perceptron.py)
+[Implementação em Python](https://github.com/roscibely/neural_networks/blob/develop/unidadeI/perceptron/perceptron.py)

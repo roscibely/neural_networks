@@ -11,8 +11,8 @@
 ### PEX0023 - REDES NEURAIS ARTIFICIAIS
 #### Bacharelado em Engenharia de Computação - UFERSA
 ---
-## Parte 01: Introdução a Redes Neurais 
-1. Rede Perceptron
+## Parte 01: [Introdução a Redes Neurais](https://github.com/roscibely/neural_networks/tree/develop/unidadeI) 
+1. [Rede Perceptron](https://github.com/roscibely/neural_networks/tree/develop/unidadeI/perceptron)
 2. Adaline
 3. Algoritmo Backpropagation
 4. Algoritmo  LMS
