@@ -3,6 +3,7 @@
 *.exe
 
 
+
 ### VisualStudioCode ###
 .vscode/*
 .vscode/settings.json
@@ -14,3 +15,13 @@
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+ambiente/
