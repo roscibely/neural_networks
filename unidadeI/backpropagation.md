@@ -22,7 +22,6 @@ O gradiente da função de custo em relação aos pesos da rede é calculado atr
 
 $$
 \frac{\partial f}{\partial x} = \frac{\partial f}{\partial y} \frac{\partial y}{\partial x}
-
 $$
 
 onde $f$ é a função composta, $y$ é a função interna, e $x$ é a variável externa. A regra da cadeia é aplicada para cada camada da rede, da camada de saída até a camada de entrada. O gradiente da função de custo em relação aos pesos da rede é calculado da seguinte forma:
