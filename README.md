@@ -13,10 +13,11 @@
 ---
 ## Parte 01: [Introdução a Redes Neurais](https://github.com/roscibely/neural_networks/tree/develop/unidadeI) 
 1. [Rede Perceptron](https://github.com/roscibely/neural_networks/tree/develop/unidadeI/perceptron)
-2. [Adaline](https://github.com/roscibely/neural_networks/blob/develop/unidadeI/adaline.py)
-3. Algoritmo Backpropagation
-4. Algoritmo  LMS
-5. Redes Feedforward MLP e RBF
+2. Adaline
+3. Rede Feedforward Multilayer Perceptron (MLP)
+4. Algoritmo Backpropagation
+5. Algoritmo  LMS
+6. Redes Feedforward RBF
 ---
 ## Parte 02: _Deep Learning_ 
 1. _Deep Feedforward Networks_
