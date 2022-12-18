@@ -55,6 +55,14 @@
 * [Neural Network Visualizer](http://alexlenail.me/NN-SVG/index.html)
 * [Neural Network Design](http://www.heatonresearch.com/aifh/vol1/v1_3_1_neural_network_design.html)
 ---
+
+### Banco de datasets
+
+* [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
+* [Kaggle Datasets](https://www.kaggle.com/datasets)
+* [Google Dataset Search](https://toolbox.google.com/datasetsearch)
+
+
 ### Livros 
 
 * 📚  [Deep Learning](http://www.deeplearningbook.org/) - Ian Goodfellow, Yoshua Bengio, Aaron Courville
