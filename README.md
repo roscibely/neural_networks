@@ -17,7 +17,8 @@
 3. Rede Feedforward Multilayer Perceptron (MLP)
 4. [Algoritmo Backpropagation](https://github.com/roscibely/neural_networks/blob/develop/unidadeI/backpropagation.md)
 5. Algoritmo  LMS
-6. Redes Feedforward RBF
+6. [Métricas](https://github.com/roscibely/neural_networks/tree/develop/unidadeI/metricas) 
+7. Redes Feedforward RBF
 ---
 ## Parte 02: _Deep Learning_ 
 1. _Deep Feedforward Networks_
