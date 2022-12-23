@@ -21,7 +21,7 @@
 7. [Redes Feedforward RBF](https://github.com/roscibely/neural_networks/blob/develop/unidadeI/radial_basis_function.py)
 ---
 ## Parte 02: _Deep Learning_ 
-1. _Deep Feedforward Networks_
+1. [_Deep Feedforward Networks_](https://github.com/roscibely/neural_networks/tree/develop/unidadeII)
 - 1.1 [Regularização (L1, L2)](https://github.com/roscibely/neural_networks/tree/develop/unidadeII/regularizacao)
 - 1.2 Otimização
 2. _Recurrent neural network_ (RNN)
