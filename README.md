@@ -23,7 +23,8 @@
 ## Parte 02: _Deep Learning_ 
 1. [_Deep Feedforward Networks_](https://github.com/roscibely/neural_networks/tree/develop/unidadeII)
 - 1.1 [Regularização (L1, L2)](https://github.com/roscibely/neural_networks/tree/develop/unidadeII/regularizacao)
-- 1.2 Otimização
+- 1.2 [_Early Stopping_](https://github.com/roscibely/neural_networks/tree/develop/unidadeII/otmizacao)
+- 1.3 _Dropout_ 
 2. _Recurrent neural network_ (RNN)
 ---
 ## Parte 03
