@@ -25,7 +25,7 @@
 - 1.1 [Regularização (L1, L2)](https://github.com/roscibely/neural_networks/tree/develop/unidadeII/regularizacao)
 - 1.2 [_Early Stopping_](https://github.com/roscibely/neural_networks/tree/develop/unidadeII/otmizacao)
 - 1.3 [_Dropout_](https://github.com/roscibely/neural_networks/blob/main/unidadeII/otmizacao/dropout.md) 
-2. _Recurrent neural network_ (RNN)
+2. [_Recurrent neural network_ (RNN)](https://github.com/roscibely/neural_networks/tree/develop/unidadeII/rnn)
 ---
 ## Parte 03
 1. _Long short-term memory_ (LSTM)
