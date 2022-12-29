@@ -29,7 +29,7 @@
 ---
 ## Parte 03
 1. [_Long short-term memory_ (LSTM)](https://github.com/roscibely/neural_networks/blob/develop/unidadeII/rnn/lstm.md)
-2. _Gated Recurrent Unit_ (GRU)
+2. [_Gated Recurrent Unit_ (GRU)](https://github.com/roscibely/neural_networks/blob/develop/unidadeII/rnn/gru.md)
 3. _Convolutional neural network_ (CNN)
 4. Projeto Final
 ---
