@@ -31,7 +31,7 @@
 1. [_Long short-term memory_ (LSTM)](https://github.com/roscibely/neural_networks/blob/develop/unidadeII/rnn/lstm.md)
 2. [_Gated Recurrent Unit_ (GRU)](https://github.com/roscibely/neural_networks/blob/develop/unidadeII/rnn/gru.md)
 3. [_Convolutional neural network_ (CNN)](https://github.com/roscibely/neural_networks/tree/develop/unidadeII/cnn)
-4. Projeto Final
+4. [Projeto Final](https://github.com/roscibely/neural_networks/blob/develop/projetos.md)
 ---
 🤜 Dataquest Academic Program [Link](https://www.dataquest.io/course/deep-learning-fundamentals/)
 ---
