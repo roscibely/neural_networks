@@ -57,6 +57,17 @@
 * [Neural Network Visualizer](http://alexlenail.me/NN-SVG/index.html)
 * [Neural Network Design](http://www.heatonresearch.com/aifh/vol1/v1_3_1_neural_network_design.html)
 ---
+### Ferramentas implementadas com modelos redes neurais
+
+* [Google Lens](https://lens.google.com/)
+* [ChatGPT](https://openai.com/blog/chatgpt/)
+* [DeepFace](https://research.fb.com/publications/deepface-closing-the-gap-to-human-level-performance-in-face-verification/)
+* [DeepDream](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html)
+* [DeepFake](https://www.youtube.com/watch?v=QH9t00Tg0EA)
+* [DeepText](https://deep-text.readthedocs.io/en/latest/)
+
+
+
 
 ### Banco de datasets
 
