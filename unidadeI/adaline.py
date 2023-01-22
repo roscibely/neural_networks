@@ -1,3 +1,7 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+
 class AdalineGD(object):
     """Adaptive Linear Neuron classifier.
 
@@ -43,7 +47,7 @@ class AdalineGD(object):
 
         for i in range(self.n_iter):
             output = self.net_input(X)
-            errors = (y - output)
+            errors = 2*(y - output)
             self.w_[1:] += self.eta * X.T.dot(errors)
             self.w_[0] += self.eta * errors.sum()
             cost = (errors**2).sum() / 2.0
@@ -60,24 +64,20 @@ class AdalineGD(object):
 
     def predict(self, X):
         """Return class label after unit step"""
-        return np.where(self.activation(X) >= 0.0, 1, -1)
+        return np.where(self.activation(X) > 0.0, 1, 0)
 
 if __name__ == "__main__":
-
-    import matplotlib.pyplot as plt
-    import numpy as np
     X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
-    y = np.array([0, 0, 0, 1])
+    y = np.array([0, 1, 1, 1])
 
     fig, ax = plt.subplots(nrows=1, ncols=2, figsize=(8, 4))
 
     ada1 = AdalineGD(n_iter=10, eta=0.01).fit(X, y)
-    ax[0].plot(range(1, len(ada1.cost_) + 1), np.log10(ada1.cost_), marker='o')
-    ax[0].set_xlabel('Epochs')
-    ax[0].set_ylabel('log(Sum-squared-error)')
-    ax[0].set_title('Adaline - Learning rate 0.01')
+    ax[0].plot(range(1, len(y) +1), ada1.predict(X), marker='o')
+    ax[0].plot(range(1, len(y) +1), y, marker='>')
+    ax[0].legend(['Predito', 'Real'])
     ax[1].plot(range(1, len(ada1.cost_) + 1), ada1.cost_, marker='o')
-    ax[1].set_xlabel('Epochs')
-    ax[1].set_title('Adaline - Learning rate 0.01')
+    ax[1].set_xlabel('Epocas')
+    ax[1].set_title('Adaline - Função Erro')
     plt.show()
 
