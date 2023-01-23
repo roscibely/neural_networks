@@ -1,12 +1,3 @@
-# implemet a MLP with tensorflow for classification with dataset uci machine learning repository 
-
-import tensorflow as tf
-import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-
-
 """
 Neste exemplo, vamos usar o conjunto de dados Iris para classificar as flores em três classes diferentes.
 
