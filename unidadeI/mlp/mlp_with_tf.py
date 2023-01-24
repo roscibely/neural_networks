@@ -38,7 +38,8 @@ model.add(tf.keras.layers.Dense(64, input_dim=4, activation='sigmoid'))
 model.add(tf.keras.layers.Dense(3, activation='softmax'))
 
 # Compile model
-model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['mse'])
+opt = tf.keras.optimizers.Adam(learning_rate=0.01)
+model.compile(loss='categorical_crossentropy', optimizer=opt, metrics=['mse'])
 model.summary()
 
 # Train model
