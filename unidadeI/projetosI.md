@@ -38,5 +38,5 @@ Você deverá escolher um problema de classificação ou regressão para resolve
 
 ## Exemplo visto em aula: 
 
-1. [Classficador de flores]('..\unidadeI\mlp\mlp_with_tf.ipynb') 
+1. [Classficador de flores](mlp/mlp_with_tf.ipynb) 
 2. [Regressão]()
