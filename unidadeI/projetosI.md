@@ -39,4 +39,4 @@ Você deverá escolher um problema de classificação ou regressão para resolve
 ## Exemplo visto em aula: 
 
 1. [Classficador de flores](mlp/mlp_with_tf.ipynb) 
-2. [Regressão]()
+2. [Regressão](mlp/mlp_regression.ipynb)
