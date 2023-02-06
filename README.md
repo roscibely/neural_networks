@@ -19,6 +19,8 @@
 5. [Algoritmo  LMS]()
 6. [Métricas](https://github.com/roscibely/neural_networks/tree/develop/unidadeI/metricas) 
 7. [Redes Feedforward RBF](https://github.com/roscibely/neural_networks/blob/develop/unidadeI/radial_basis_function.py)
+
+* [Projeto I](https://github.com/roscibely/neural_networks/blob/main/unidadeI/projetosI.md)
 ---
 ## Parte 02: _Deep Learning_ 
 1. [_Deep Feedforward Networks_](https://github.com/roscibely/neural_networks/tree/develop/unidadeII)
