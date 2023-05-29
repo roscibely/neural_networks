@@ -3,7 +3,7 @@
 ## 🚗 AWS DeepRacer
 
 
-<img src="https://student.deepracer.com/static/media/Evo_Black.de2d77b9c829e6d8f25d.png" width="200" height="200" />
+<img src="https://hostingjournalist.com/wp-content/uploads/2020/01/AWS-DeepRacer-League-Preview.jpg" width="200" height="200" />
 
 ### 📚 O que é o AWS DeepRacer?
 
@@ -62,4 +62,4 @@ def reward_function(params):
 
 ## Video de simulação 
 
-![]('..\unidadeI\animation.gif')
+![](https://github.com/roscibely/neural_networks/blob/develop/unidadeI/animation.gif)
