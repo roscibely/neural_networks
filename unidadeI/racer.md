@@ -13,7 +13,37 @@ O AWS DeepRacer é um veículo de código aberto, com uma comunidade de desenvol
 
 ### 📚 O que é o aprendizado de reforço?
 
-O aprendizado de reforço é uma técnica de aprendizado de máquina que ensina um agente a aprender o comportamento ideal em um ambiente executando ações e vendo os resultados. O agente aprende a alcançar uma meta em um ambiente incerto, onde ele não é informado qual ação executar, mas é recompensado ou punido por suas ações. O agente deve, portanto, determinar por si mesmo qual ação executar para maximizar a recompensa ao longo do tempo.
+O aprendizado de reforço é uma técnica de aprendizado de máquina que ensina um agente, neste caso, o carro, a aprender o comportamento ideal em um ambiente (a pista) executando ações (seguir em frente, girar, mover para direira, esquerda) e vendo os resultados (estado). O agente aprende a alcançar uma meta em um ambiente incerto, onde ele não é informado qual ação executar, mas é recompensado ou punido por suas ações. O agente deve, portanto, determinar por si mesmo qual ação executar para maximizar a recompensa ao longo do tempo. Isso é possível, pois existe a função política, que é uma função que mapeia o estado do ambiente para ações que o agente deve executar. O agente aprende a política ideal por meio de tentativa e erro, com base em recompensas e punições recebidas por suas ações. 
+
+
+![Figure](https://github.com/roscibely/neural_networks/blob/develop/unidadeI/fig1.jpg)
+
+A função política pode ser determinística ou estocástica. Uma função determinística é uma função que mapeia o estado do ambiente para uma ação específica. Uma função estocástica é uma função que mapeia o estado do ambiente para uma distribuição de probabilidade sobre ações. 
+
+Exemplo: 
+
+Dado a ação `a` e o estado `s`, a função política determinística `π` retorna a ação `a` para o estado `s`.
+
+$$ \pi(s) = a $$
+
+Dado a ação `a` e o estado `s`, a função política estocástica `π` retorna a probabilidade de executar a ação `a` para o estado `s`.
+
+$$ \pi(s,a) = P(a=a|s=s) $$
+
+a equação acima pode ser lida como: a probabilidade de executar a ação `a` dado o estado `s` é igual a `P(a|s)`. Isto é, dado o estado `s`, a função `π` diz  qual a probabilidade de executar a ação `a` estando no estado `s`. 
+
+Além da função política, existe a função valor, que é uma função que mapeia o estado do ambiente para um valor que representa a recompensa esperada do agente ao longo do tempo. O valor de um estado é a recompensa esperada do agente ao longo do tempo, começando no estado `s` e seguindo a política `π`.
+
+Exemplo:
+
+Dado o estado `s` e a função política `π`, a função valor `V` retorna a recompensa esperada do agente ao longo do tempo, começando no estado `s` e seguindo a política `π`.
+
+$$ V^\pi(s) = E_\pi[R_t|s_t=s] $$
+
+a equação acima pode ser lida como: o valor de um estado `s` seguindo a política `π` é igual a recompensa esperada do agente ao longo do tempo, começando no estado `s` e seguindo a política `π`.
+
+A função recompensa indica o que é bom num sentido imediato, ou seja, para o momento atual, já a função valor especifica o que é bom a longo prazo. Grosso modo, o valor de um estado é a quantidade total de  recompensa que um agente pode esperar acumular no futuro, a partir desse estado.
+
 
 ### 📚 Como funciona o AWS DeepRacer?
 
@@ -143,4 +173,11 @@ def reward_function(params):
 ![](https://github.com/roscibely/neural_networks/blob/develop/unidadeI/animation.gif)
 
 [Conhecendo AWS DeepRacer races](https://www.youtube.com/watch?v=vCt-F2HscOU)
+
+
 [Tutorial](https://www.youtube.com/watch?v=S5C46D_VEtk&ab_channel=ColaberrySchoolOfDataScience%26Analytics)
+
+
+---
+
+## Arquitetura de Rede Neural Utilizada no DeepRacer 
