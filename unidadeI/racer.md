@@ -142,4 +142,5 @@ def reward_function(params):
 
 ![](https://github.com/roscibely/neural_networks/blob/develop/unidadeI/animation.gif)
 
-[AWS DeepRacer races](https://www.youtube.com/watch?v=vCt-F2HscOU)
+[Conhecendo AWS DeepRacer races](https://www.youtube.com/watch?v=vCt-F2HscOU)
+[Tutorial](https://www.youtube.com/watch?v=S5C46D_VEtk&ab_channel=ColaberrySchoolOfDataScience%26Analytics)
