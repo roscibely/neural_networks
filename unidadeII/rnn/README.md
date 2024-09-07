@@ -25,9 +25,13 @@ onde $h_t$ é a saída do neurônio na camada oculta na iteração $t$, $y_t$ é
 Queremos minimizar a função de perda, que é calculada da seguinte forma:
 
 $$ L = \sum_{t=1}^T L(y_t, \hat{y}_t) $$
+
 $$ L(y_t, \hat{y}_t) = \frac{1}{2}(\hat{y}_t - y_t)^2 $$
+
 $$ \hat{y}_t = \text{softmax}(y_t) $$
+
 $$ y_t = W_{hy}h_t + b_y $$
+
 $$ h_t = f(W_{hh}h_{t-1} + W_{xh}x_t + b_h) $$
 
 
@@ -60,7 +64,9 @@ $$ \frac{\partial L}{\partial \hat{y}_t} = \frac{1}{2}(\hat{y}_t - y_t) $$
 $$ \frac{\partial \hat{y}_t}{\partial y_t} = \text{softmax}'(y_t) $$
 
 $$ \frac{\partial y_t}{\partial h_t} = W_{hy} $$
+
 $$ \frac{\partial h_t}{\partial W_{hh}} = h_{t-1} $$
+
 $$ \frac{\partial h_t}{\partial W_{xh}} = x_t $$
 
 $$ \frac{\partial h_t}{\partial b_h} = 1 $$
