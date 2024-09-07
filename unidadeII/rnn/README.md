@@ -70,6 +70,7 @@ $$ \frac{\partial h_t}{\partial W_{hh}} = h_{t-1} $$
 $$ \frac{\partial h_t}{\partial W_{xh}} = x_t $$
 
 $$ \frac{\partial h_t}{\partial b_h} = 1 $$
+
 $$ \frac{\partial y_t}{\partial b_y} = 1 $$
 
 $$ \frac{\partial L}{\partial h_t} = \frac{\partial L}{\partial y_t} W_{hy} $$
