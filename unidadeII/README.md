@@ -1,4 +1,8 @@
-# Deep Neural Networks 
+# Unidade 2 
+
+Nesta unidade, iremos estudar redes neurais profundas, que são redes neurais com muitas camadas, dando enfase nas redes neurais convolucionais.  Vamos ver como elas são treinadas e como podemos usá-las para resolver problemas de visão computacional. 
+
+## Deep Neural Networks 
 
 
 ## 1. Introdução
@@ -31,7 +35,8 @@ Uma rede neural convolucional é uma rede neural profunda que usa camadas convol
 
 ![Figure](https://d3i71xaburhd42.cloudfront.net/cfee6a5245806b0d3fbb9ca23e993bad64fb9b2e/4-Figure2-1.png)
 
-As redes neurais convolucionais são usadas para processar imagens, mas também podem ser usadas para processar outros tipos de dados, como texto e áudio.
+As redes neurais convolucionais são usadas para processar imagens, mas também podem ser usadas para processar outros tipos de dados, como texto e áudio. 
+
 
 ### 2.3. Redes Neurais Recorrentes
 
