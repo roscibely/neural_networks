@@ -1,4 +1,9 @@
-# Definição de redes neurais artificiais
+# Unidade 1
+
+Nesta unidade, iremos estudar os conceitos básicos de redes neurais artificiais, incluindo o algoritmo backpropagation, o perceptron, o multilayer perceptron e a radial basis function network.
+
+
+## Definição de redes neurais artificiais
 
 Uma rede neural artificial é um modelo matemático inspirado no funcionamento do cérebro humano. A ideia é que a rede possa aprender a partir de dados de entrada e saída, e assim, ser capaz de realizar tarefas que antes eram impossíveis de serem realizadas por computadores.
 
