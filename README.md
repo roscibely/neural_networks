@@ -5,40 +5,45 @@
 </div>
 
 
-#  Artificial Neural Network (ANN)
+#  Redes Neurais Artificiais (RNA)
 
-###### Professor: [Rosana Rego](https://github.com/roscibely)
+###### Professora: [Rosana Rego](https://github.com/roscibely)
 
 ### PEX0023 - REDES NEURAIS ARTIFICIAIS
 #### Bacharelado em Engenharia de Computação - UFERSA
 ---
-## Part 01: [Introduction to Neural Network](https://github.com/roscibely/neural_networks/tree/develop/unidadeI) 
-1. [Perceptron Network](https://github.com/roscibely/neural_networks/tree/develop/unidadeI/perceptron)
-2. [Adaline Network](https://github.com/roscibely/neural_networks/blob/develop/unidadeI/adaline.py)
-3. [Feedforward Multilayer Perceptron (MLP)](https://github.com/roscibely/neural_networks/tree/develop/unidadeI/mlp)
-4. [Backpropagation](https://github.com/roscibely/neural_networks/blob/develop/unidadeI/backpropagation.md)
-5. [Least mean squares (LMS)]()
-6. [Metrics](https://github.com/roscibely/neural_networks/tree/develop/unidadeI/metricas) 
-7. [Feedforward Radial Basis Function (RBF)](https://github.com/roscibely/neural_networks/blob/develop/unidadeI/radial_basis_function.py)
+## Unidade I: [Introdução às Redes Neurais](unidadeI/README.md) 
+1. [Rede Perceptron](unidadeI/perceptron/README.md)
+2. [Rede Adaline](unidadeI/adaline.py)
+3. [Perceptron Multicamadas (_Multilayer Perceptron_ - MLP)](unidadeI/mlp/README.md)
+4. [Algoritmo Backpropagation](unidadeI/backpropagation.md)
+5. [Métricas de Avaliação](unidadeI/metricas/README.md) 
+6. [Rede de Função de Base Radial (_Radial Basis Function_ - RBF)](unidadeI/radial_basis_function.py)
 
-### [Project I: AWS DeepRacer](https://github.com/roscibely/neural_networks/blob/main/unidadeI/racer.md)
+### Práticas e Projetos da Unidade I
+- [Práticas: Classificação e Regressão](unidadeI/projetosI.md)
+- [Projeto AWS DeepRacer](unidadeI/racer.md)
 ---
-## Part 02: _Deep Learning_ 
-1. [_Deep Feedforward Networks_](https://github.com/roscibely/neural_networks/tree/develop/unidadeII)
-- 1.1 [Regularização (L1, L2)](https://github.com/roscibely/neural_networks/tree/develop/unidadeII/regularizacao)
-- 1.2 [_Early Stopping_](https://github.com/roscibely/neural_networks/tree/develop/unidadeII/otmizacao)
-- 1.3 [_Dropout_](https://github.com/roscibely/neural_networks/blob/main/unidadeII/otmizacao/dropout.md) 
-2. [_Recurrent neural network_ (RNN)](https://github.com/roscibely/neural_networks/tree/develop/unidadeII/rnn)
+## Unidade II: [_Deep Learning_](unidadeII/README.md)
+1. [Redes Neurais Profundas (_Deep Feedforward Networks_)](unidadeII/README.md)
+   - 1.1 [Regularização (L1, L2)](unidadeII/regularizacao/README.md)
+   - 1.2 [Técnicas de Otimização (_Early Stopping_)](unidadeII/otmizacao/README.md)
+   - 1.3 [_Dropout_](unidadeII/otmizacao/dropout.md) 
+2. [Redes Neurais Convolucionais (_Convolutional Neural Network_ - CNN)](unidadeII/cnn/README.md)
+3. [Inteligência Artificial Explicável (_Explainable AI_ - XAI)](unidadeII/ia_explicavel)
 ---
-## Part 03
-1. [_Long short-term memory_ (LSTM)](https://github.com/roscibely/neural_networks/blob/develop/unidadeII/rnn/lstm.md)
-2. [_Gated Recurrent Unit_ (GRU)](https://github.com/roscibely/neural_networks/blob/develop/unidadeII/rnn/gru.md)
-3. [_Convolutional neural network_ (CNN)](https://github.com/roscibely/neural_networks/tree/develop/unidadeII/cnn)
-4. [Final Project](https://github.com/roscibely/neural_networks/blob/develop/projetos.md)
+## Unidade III: [Redes Neurais Recorrentes e Processamento de Linguagem Natural](unidadeIII/README.md)
+1. [Redes Neurais Recorrentes (_Recurrent Neural Network_ - RNN)](unidadeIII/rnn/README.md)
+2. [Memória de Curto e Longo Prazo (_Long Short-Term Memory_ - LSTM)](unidadeIII/rnn/lstm.md)
+3. [Unidade Recorrente com Portas (_Gated Recurrent Unit_ - GRU)](unidadeIII/rnn/gru.md)
+4. [Processamento de Linguagem Natural (_Natural Language Processing_ - NLP)](unidadeIII/nlp)
+5. [Transformers](unidadeIII/transformers/README.md)
+
+### [Projeto Final]
 ---
 🤜 Dataquest Academic Program [Link](https://www.dataquest.io/course/deep-learning-fundamentals/)
 ---
-### 🦾 Frameworks 
+### 🦾 _Frameworks_ 
 
 * [TensorFlow](https://www.tensorflow.org/)
 * [Keras](https://keras.io/)
@@ -53,14 +58,14 @@
 * [Apache SINGA](http://singa.apache.org/)
 * [Apache SystemML](https://systemml.apache.org/)
 ---
-### ⚙️ Sites legais 
+### ⚙️ Sites Úteis 
 ---
 * [Neural Network Zoo](http://www.asimovinstitute.org/neural-network-zoo/)
 * [Neural Network Playground](https://playground.tensorflow.org/)
 * [Neural Network Visualizer](http://alexlenail.me/NN-SVG/index.html)
 * [Neural Network Design](http://www.heatonresearch.com/aifh/vol1/v1_3_1_neural_network_design.html)
 ---
-### Ferramentas implementadas com modelos redes neurais
+### Ferramentas Implementadas com Modelos de Redes Neurais
 
 * [Google Lens](https://lens.google.com/)
 * [ChatGPT](https://openai.com/blog/chatgpt/)
@@ -69,35 +74,30 @@
 * [DeepFake](https://www.youtube.com/watch?v=QH9t00Tg0EA)
 * [DeepText](https://deep-text.readthedocs.io/en/latest/)
 
+---
 
-
-
-### Banco de datasets
+### 📊 Repositórios de _Datasets_
 
 * [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
 * [Kaggle Datasets](https://www.kaggle.com/datasets)
 * [Google Dataset Search](https://toolbox.google.com/datasetsearch)
 
+---
 
-### Livros 
+### 📚 Livros 
 
-* 📚  [Deep Learning](http://www.deeplearningbook.org/) - Ian Goodfellow, Yoshua Bengio, Aaron Courville
-* 📚  [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) - Michael Nielsen
-* 📚  [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python) - François Chollet
-* 📚  [Deep Learning for Coders with fastai and PyTorch](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527) - Jeremy Howard, Sylvain Gugger
-* 📚  [Deep Learning with Keras](https://www.amazon.com/Deep-Learning-Keras-Powerful-Python/dp/178646294X) - Antonio Gulli, Sujit Pal
-* 📚  [Deep Learning with PyTorch](https://www.amazon.com/Deep-Learning-PyTorch-Applications-Production/dp/1491989386) - Eli Stevens, Luca Antiga, Thomas Viehmann
-* 📚  [Deep Learning with TensorFlow](https://www.amazon.com/Deep-Learning-TensorFlow-Scalable-Implementations/dp/1491989386) - Tom Hope, Bharath Ramsundar, Brian McMahan, Arvind Ramanathan, Quoc V. Le
-* 📚  [Deep Learning with CNTK](https://www.amazon.com/Deep-Learning-CNTK-Scalable-Implementations/dp/1491989386) - Tom Hope, Bharath Ramsundar, Brian McMahan, Arvind Ramanathan, Quoc V. Le
-* 📚  [Deep Learning with Apache MXNet](https://www.amazon.com/Deep-Learning-Apache-MXNet-Scalable/dp/1491989386) - Thomas Viehmann, Thomas Viehmann, Thomas Viehmann, Thomas Viehmann, Thomas Viehmann
+* 📚 [Deep Learning](http://www.deeplearningbook.org/) - Ian Goodfellow, Yoshua Bengio, Aaron Courville
+* 📚 [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) - Michael Nielsen
+* 📚 [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python) - François Chollet
+* 📚 [Deep Learning for Coders with fastai and PyTorch](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527) - Jeremy Howard, Sylvain Gugger
+* 📚 [Deep Learning with Keras](https://www.amazon.com/Deep-Learning-Keras-Powerful-Python/dp/178646294X) - Antonio Gulli, Sujit Pal
+* 📚 [Deep Learning with PyTorch](https://www.amazon.com/Deep-Learning-PyTorch-Applications-Production/dp/1491989386) - Eli Stevens, Luca Antiga, Thomas Viehmann
 
-
-
-
-
+---
 
 <div>
   <img src="https://github.com/roscibely/algorithms-and-data-structure/blob/develop/root/ufersa.jpg" width="700" height="250">
 </div>
+
 <i>UFERSA - Campus Pau dos Ferros</i>
 
